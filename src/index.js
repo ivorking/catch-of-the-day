@@ -1,3 +1,5 @@
+// import React from 'react'
 import React from 'react';
-
-class StorePicker {}
+import { render } from 'react-dom';
+import StorePicker from './components/StorePicker';
+render(<StorePicker />, document.querySelector('#main'));
