@@ -1,2 +1,3 @@
-// let's go!
-alert('hey');
+import React from 'react';
+
+class StorePicker {}
