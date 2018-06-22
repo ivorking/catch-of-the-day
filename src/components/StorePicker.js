@@ -1,16 +1,15 @@
 import React, { Fragment } from "react";
+import { getFunName } from '../helpers';
 
 class StorePicker extends React.Component {
    render() {
       return (
-         <Fragment>
-            <form className="store-selector">
-               {/* comment */}
-               <h2>Please enter a store</h2>
-               <input type="text" required placeholder="Store Name" />
-               <button type="submit">visit store</button>
-            </form>
-         </Fragment>
+         <form className="store-selector">
+            {/* comment */}
+            <h2>Please enter a store</h2>
+            <input type="text" required placeholder="Store Name" defaultValue={getFunName()} />
+            <button type="submit">visit store</button>
+         </form>
       );
    }
 }
