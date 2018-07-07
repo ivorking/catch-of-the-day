@@ -53,7 +53,7 @@ class EditFishForm extends React.Component {
             >
                Remove fish
             </button>
- >       </div>
+         </div>
       );
    }
 }
